@@ -8,6 +8,7 @@ header{
   position: fixed;
   border-bottom: 1px solid black;
   z-index: 5;
+  background-color: white;
 }
 header h1{
   color: mediumaquamarine;
@@ -25,6 +26,7 @@ header nav span{
 }
 .main{
   display: flex;
+  align-items: center;
 }
 .main .first{
   flex-direction: column;
@@ -47,9 +49,25 @@ header nav span{
   flex-direction: column;
   margin-top: 50px;
   width: 300px;
+  display: inline-block;
+}
+.main .second .fbi{
+  border: 1px solid black;
+}
+.main .second h2{
+  border: 1px solid black;
+}
+.main .second p{
+  border: 1px solid black;
 }
 .main .third{
   flex-direction: column;
   margin-top: 50px;
   width: 240px;
+}
+.main .third .cookie{
+  border: 1px solid black;
+}
+.main .third .news{
+  border: 1px solid black;
 }

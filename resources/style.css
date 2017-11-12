@@ -157,3 +157,35 @@ p{
   display: block;
   padding: 11px 20px;
 }
+footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer h2{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding: 10px;
+}
+.foottop{
+  flex-direction: row;
+  display: flex;
+}
+.feet {
+  display: flex;
+  align-items: center;
+}
+.feet h3{
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin: 5px;
+
+}
